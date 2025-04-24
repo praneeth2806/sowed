@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Initialize Keycloak
     const keycloak = new Keycloak({
-         url:"http://172.25.212.86:8181",
+         url:"https://apidev.asianpaints.com/christest",
         //url: 'http://localhost:8080',
         realm: 'myRealm',
         clientId: 'testclientid',
